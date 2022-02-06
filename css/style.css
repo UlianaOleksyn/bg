@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto';
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo{
+    height: 800px;
+    background: url("../img/main_bg.jpg") center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_img{
+    display:block;
+    margin: 0 auto;
+
+}
+
+.logo .logo_text{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 21px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 41px;
+    text-align: center;
+    color: #F9BF3B;
+}
+
+.simple .title_big{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.promo h1{
+    margin-top: 53px;
+}
+
+.promo .promo_text{
+    padding: 0 15px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_text span{
+    font-weight: 700;
+    color: #F9BF3B;
+}
+ 
+.promo .promo_btn, .signUp .signUp_btn {
+    display: block;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 2px solid rgba(0, 0, 0, 0.23);
+    margin: 63px auto;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    outline: none; 
+}
+
+.signUp .signUp_wrapper .signUp_btn{
+background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+margin-top: 51px;
+}
+
+.more .more_text{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.more .more_img{
+    display: block;
+    margin: 13px auto 0 auto;
+}
+
+.waiting{
+    min-height: 604px;
+    background-color: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.finish .finish_header{
+    color:white;
+}
+
+.waiting .waiting_divider, .finish .finish_divider{
+    width: 217px;
+    height: 4px;
+    background: #F9BF3B;
+    margin: 18px auto 0px auto;
+}
+
+.waiting .waiting_subheader{
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 17px;
+}
+
+.waiting .waiting_wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.waiting  .waiting_wrapper .waiting_item{
+    width: 339px;
+    text-align: center;
+    margin-right: 48px;
+}
+
+.waiting  .waiting_wrapper .waiting_item .waiting_img{
+    width: 100%;
+}
+
+.waiting  .waiting_wrapper .waiting_item .waiting_desr{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 33px;
+    color: #4A4A4A;
+}
+
+.optimization{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header{
+    margin-left: 391px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .optimization_text{
+    margin-left: 391px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+    margin-top: 25px;
+}
+
+.optimization .optimization_text span{
+    font-weight: 700;
+}
+
+.optimization .optimization_img{
+    position: absolute;
+    left: -240px;
+    top: -54px;
+    z-index:-1;
+}
+
+.finish{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url("../img/second_bg.jpg") center center/cover no-repeat;
+
+}
+
+.finish .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+}
+
+.signUp{
+    height: 628px;
+    background-color: #EFEFEF;
+    padding-top: 85px;
+}
+
+.signUp .signUp_icon{
+    display:block;
+    margin: 0 auto;
+    width: 154px;
+    height: 174px;    
+}
+
+.signUp .signUP_text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+    margin-top:45px;
+    width: 1161px;
+    margin: 45px auto 0 auto;
+}
+
+.end .end_wrapper{
+    padding-top:81px;
+    background-color: white;
+    width: 577px;
+    height: 533px;
+    margin: 0 auto;
+}
+
+.end .end_wrapper .end_img{
+    display:block;
+    width: 342px;
+    height: 201px;
+    margin: 0 auto;
+}
+
+.end .end_wrapper .end_header{
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.end .end_wrapper .end_text{
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.end .end_wrapper .end_descr{
+    margin-top: 24.5px;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+footer{
+    width: 100%;
+    height: 149px;
+    background-color: #1A1A1A;
+    margin: 0 auto;
+}
+
+footer .content_footer, footer .content_footer a {
+    padding-top: 54px;
+    width: 407px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+    margin: 0 auto;
+}
+
+
+
+
+
